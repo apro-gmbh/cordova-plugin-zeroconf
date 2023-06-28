@@ -28,7 +28,7 @@
         <framework src="org.jmdns:jmdns:3.5.5" />
     </platform>
 
-    <platform name="ios">
+    <!-- <platform name="ios">
         <js-module src="www/zeroconf.js" name="ZeroConf">
             <clobbers target="cordova.plugins.zeroconf" />
         </js-module>
@@ -43,5 +43,5 @@
         <source-file src="src/ios/Hostname.m"/>
     </platform>
 
-    <dependency id="cordova-plugin-add-swift-support" version="^2.0.2"/>
+    <dependency id="cordova-plugin-add-swift-support" version="^2.0.2"/> -->
 </plugin>
